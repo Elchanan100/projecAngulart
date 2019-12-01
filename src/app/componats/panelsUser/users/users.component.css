@@ -1,0 +1,6 @@
+li:hover{
+    font-weight: bold;
+    font-size: x-large;
+    cursor: pointer; 
+    text-decoration: underline; 
+}

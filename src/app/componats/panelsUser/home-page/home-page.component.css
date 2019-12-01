@@ -1,0 +1,21 @@
+.myImg{
+    display: block;
+    height: 160px;
+    position: relative;
+}
+.myImgLi{
+     position: absolute; 
+     left: -50%;
+     /* transition: 2s; */
+}
+
+.show{
+    position: absolute;
+    left:85%;
+    transition: 2s;
+}
+
+.myul{
+    border: solid;
+    background-color: aqua;
+}

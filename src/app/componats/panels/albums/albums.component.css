@@ -1,0 +1,44 @@
+.pageAllAlbums{
+     display: flex;
+    /* justify-content: space-evenly;  */
+    min-height: 90vh;
+}
+.divChoiceWotAlbumsIsShow{
+    display: inline-block;
+    background-color: rgba(0, 170, 255, 0.247);
+    margin: 2px;
+    width: 20%;
+    height: 95%;
+    min-width: 10%;
+    min-height: 90vh;
+    text-align: center;
+}
+.myDiv{
+    margin: 2vh;
+    width: 50%;
+    height: 15%;
+    
+    min-height: 3vh;
+    border: 2px groove;
+    margin: 5vh; 
+    background-color: rgba(0, 50, 255, 0.247);
+}
+
+.divSelect{
+    margin: 2vh; 
+    width: 50%;
+    height: 15%;
+    min-height: 3vh;
+    border: 2px groove;
+    margin: 5vh;
+    background-color: rgba(0, 50, 255, 0.247); 
+}
+
+.hereAlbumsIsShow{
+    background-color: rgb(255, 220, 200);
+    margin: 2px;
+    width: 66%;
+    height: 950%;
+    min-width: 60%;
+    min-height: 90vh;
+}

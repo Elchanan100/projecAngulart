@@ -1,0 +1,3 @@
+<app-login-panel *ngIf="this.ManagerPanelsService.showThisPanel=='showPanelOpLogin'"></app-login-panel>
+<app-header *ngIf="this.ManagerPanelsService.showThisPanel!='showPanelOpLogin'"></app-header>
+<app-body *ngIf="this.ManagerPanelsService.showThisPanel!='showPanelOpLogin'"></app-body>

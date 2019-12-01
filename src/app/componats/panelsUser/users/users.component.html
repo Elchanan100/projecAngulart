@@ -1,0 +1,11 @@
+<div>
+    <h1>fffff</h1>
+    <ul>
+        <li *ngFor="let user of this.UsersService.aereeUsers" (click)="clickOnUser(user)">
+            {{user.name}}
+        </li>
+    </ul>
+    <app-user-options *ngIf = "this.ManagerPanelsService.showUserOptions=='show'"></app-user-options>
+    <app-user-poto *ngIf = "this.ManagerPanelsService.showUserOptionsTasksOrPosts=='poto'"></app-user-poto>
+    <app-user-todo *ngIf = "this.ManagerPanelsService.showUserOptionsTasksOrPosts=='todo'"></app-user-todo>
+</div>

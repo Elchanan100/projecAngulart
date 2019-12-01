@@ -1,0 +1,27 @@
+
+<!-- 
+<div>
+    <div class="colorAboveApp-home-page"></div>
+</div>
+<div class="showApp-home-page">
+    <p>login-panel works!</p>
+    <app-home-page class="app-home-page"></app-home-page>
+</div> -->
+<div class="myDiv">
+    <span>Username</span>
+    <br><br>
+    <input  [(ngModel)]='a'>
+    <br><br>
+    <span>Password</span>
+    <br><br>
+    <input  [(ngModel)]='b'>
+    <br><br>
+    <h4 *ngIf ='this.a!=NUN&&this.a!=""'>Welcome</h4>
+    <h4 >{{this.a}}</h4>
+    <br><br>
+   
+    <div class="login" (click)='login()'>
+        <h3>{{this.b}}<br><br>
+         login</h3></div><br><br> 
+    <a>Sign up</a><br><br>  
+</div>

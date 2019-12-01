@@ -1,0 +1,29 @@
+<div class="myImg">
+        <ul>
+                <li *ngFor="let Photo of this.HomePageService.aereeTenPhotosLatest" class="myImgLi" (click)=" this.sohwThisImg()">
+                        <img src="{{Photo.thumbnailUrl}}" alt="">
+                </li>
+        </ul>
+</div>
+
+<div class="myul">
+        <ul>         
+                <li *ngFor="let poto of this.HomePageService.aereeTenPostsLatest"> 
+                                id : {{poto.id}}
+                                title :{{poto.title}}
+                                body : {{poto.body}}
+                        <ul>
+                                <li *ngFor= "let Comment of poto.Commentt">
+                                                name : {{Comment.postId}}
+                                                name : {{Comment.name}}
+                                                body :{{Comment.body}}
+                                </li>
+                        </ul>   
+                </li>
+        </ul>
+</div>
+
+
+       
+
+

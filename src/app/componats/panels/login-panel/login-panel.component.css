@@ -1,0 +1,30 @@
+/* .app-home-page{
+    margin: 3%;
+}
+.colorAboveApp-home-page{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height:1000%;
+    background-color: rgba(0, 0, 0, 0.75)
+} */
+.myDiv{
+    display: inline-block;
+    min-width: 400px;
+    width: 25%;
+    min-height: 400px;
+    height: 30%;
+    margin:20%;
+    padding:3% 1% 1% 1%;
+    background-color: rgba(67, 156, 230, 0.308);
+    border: 2px dashed;
+    text-align: center;
+}
+.login{
+    display: inline-block;
+    background-color: rgba(6, 68, 236, 0.452);
+    border: 1px solid;
+    padding: 3%;
+    width: 45%;
+    height: 30%;
+}

@@ -1,0 +1,9 @@
+<app-home-page *ngIf="this.ManagerPanelsService.showThisPanel=='showPanelOphomePage'"></app-home-page>
+<!-- <app-login-panel *ngIf="this.ManagerPanelsService.showThisPanel=='showPanelOpLogin'"></app-login-panel> -->
+<app-users *ngIf="this.ManagerPanelsService.showThisPanel=='showPanelOpUsers'"></app-users>
+<app-albums *ngIf="this.ManagerPanelsService.showThisPanel=='showPanelOpAlbums'"></app-albums>
+<app-users *ngIf="this.ManagerPanelsService.showThisPanel=='showPanelOpComments'"></app-users>
+<app-users *ngIf="this.ManagerPanelsService.showThisPanel=='showPanelOpPhotos'"></app-users>
+<app-users *ngIf="this.ManagerPanelsService.showThisPanel=='showPanelOpTodos'"></app-users>
+<app-users *ngIf="this.ManagerPanelsService.showThisPanel=='showPanelOpPosts'"></app-users>
+<app-family-page-father *ngIf="this.ManagerPanelsService.showThisPanel=='family-page'"></app-family-page-father>
